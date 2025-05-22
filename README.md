@@ -4,7 +4,7 @@
 
 > 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
 > I’ve already bundled `ffmpeg.exe` inside the `YouTube Downloader.exe`.  
-> Just check the folder you selected; your converted `.mp3` files will be there.
+> Just check the folder you selected; your `downloaded` files will be there.
 
 ---
 
