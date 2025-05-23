@@ -1,28 +1,45 @@
+# 📥 YouTube Downloader for Windows
 
-![1st](https://github.com/user-attachments/assets/69a32d33-8444-4da9-a890-4f385161d328)
+Download **single videos** or entire **playlists** with ease.
 
-
-> 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
-> I’ve already bundled `ffmpeg.exe` inside the `YouTube Downloader.exe`.  
-> Just check the folder you selected; your `downloaded` files will be there.
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f71daa10-4ee4-45e3-9ccc-6d96e99b8ebc" alt="Single Video" width="400"/>
+  <img src="https://github.com/user-attachments/assets/81dc2766-e448-429a-a86f-b22ff1e17ca2" alt="Playlist" width="400"/>
+</div>
 
 ---
 
-### 🛠️ Optional: Remove the FFmpeg recommendation 
+## ⚠️ FFmpeg Warning
 
-If you'd rather **remove that error message**, add FFmpeg to your system PATH.
+> 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
+> `ffmpeg.exe` is already bundled inside the `YouTube Downloader.exe`.  
+> Just check the folder you selected; your downloaded files will be there.
 
-1. Download FFmpeg from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)  
-2. Select: `ffmpeg-git-essentials.7z`  
-3. Extract the folder somewhere on any drive.
-4. Inside the extracted folder, go to the `bin` directory. Example: 
- 
->C:\Program Files (x86)\ffmpeg-<date>-git-<version>-essentials_build\bin
+---
+
+## 🛠️ Optional: Add FFmpeg to System PATH (Recommended)
+
+To improve compatibility and performance, you can add FFmpeg to your system PATH:
+
+1. Download FFmpeg from: [https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+2. Select: `ffmpeg-git-essentials.7z`
+3. Extract the folder anywhere (e.g., `D:\Apps\ffmpeg\`).
+4. Open the extracted folder and go to the `bin` directory. Example:  
+
+C:\Program Files (x86)\ffmpeg-<date>-git-<version>-essentials_build\bin
 
 5. Copy that path.
 6. Add it to your **System PATH** environment variable.
 
 ---
 
-🤔 **How do you access the System PATH?**  
-I'm done for now 😅.
+### 🤔 How to Edit the System PATH?
+
+If you're unsure how to do this, you can search for:
+
+> **“Edit the system environment variables”** in the Windows Start Menu,  
+> then click **Environment Variables** and edit the `Path`.
+
+---
+
+I'm done for now 😅
