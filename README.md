@@ -8,7 +8,7 @@ A clean and powerful desktop tool for downloading YouTube videos and playlists w
 <img alt="Single Video Download View" src="https://github.com/user-attachments/assets/7f39ed42-3c02-4b7c-b21b-2038d144c67e" />
 </div>
 
-✨ Key Features
+### ✨ Key Features
 
 This tool uses yt-dlp and the YouTube API v3 to provide a comprehensive download experience.
 
@@ -34,7 +34,7 @@ Self-Updating: Includes a built-in "Update Tools" button to fetch the latest ver
 
 Smart Merging: Automatically merges video-only and audio-only streams (using the bundled FFmpeg) for the best possible quality.
 
-🚀 How to Use
+### 🚀 How to Use
 
 Search: Paste a full YouTube video/playlist URL or any search term into the search box and press Enter or click Search.
 
