@@ -1,6 +1,8 @@
 # 📥 YouTube Downloader for Windows
 
-Download **single videos** or entire **playlists** with ease.
+Download **single videos** or **entire playlists** with ease.
+Added the **audio language** where you can download the video in your **preferred language with subtitles**.
+That option is **available for both single videos and playlist videos under the advanced option**.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/f71daa10-4ee4-45e3-9ccc-6d96e99b8ebc" alt="Single Video" width="400"/>
