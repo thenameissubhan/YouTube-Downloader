@@ -1,23 +1,85 @@
-# 📥 YouTube Downloader for Windows
+📥 YouTube Downloader Pro
 
-Download **single videos** or **entire playlists** with ease.
-Added the **audio language** where you can download the video in your **preferred language with subtitles**.
-That option is **available for both single videos and playlist videos under the advanced option**.
+<p align="center">
+A clean and powerful desktop tool for downloading YouTube videos and playlists with advanced audio and subtitle options.
+</p>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/f71daa10-4ee4-45e3-9ccc-6d96e99b8ebc" alt="Single Video" width="400"/>
-  <img src="https://github.com/user-attachments/assets/81dc2766-e448-429a-a86f-b22ff1e17ca2" alt="Playlist" width="400"/>
+<img alt="Single Video Download View" src="https://github.com/user-attachments/assets/7f39ed42-3c02-4b7c-b21b-2038d144c67e" />
 </div>
 
----
+✨ Key Features
 
-## ⚠️ FFmpeg Warning
+This tool uses yt-dlp and the YouTube API v3 to provide a comprehensive download experience.
 
-> 💡 **If you see an FFmpeg error saying it failed to download—don’t worry!**  
-> `ffmpeg.exe` is already bundled inside the `YouTube Downloader.exe`.  
-> Just check the folder you selected; your downloaded files will be there.
+Single Video Downloader: Paste any video URL or search term and get a full list of available MP4 streams.
 
----
+Full Playlist Support: Download entire playlists at once, with options to select specific videos.
+
+Multiple Formats:
+
+Video: Download as MP4 in various resolutions (1080p, 720p, etc.).
+
+Audio-Only: Extract and convert audio to MP3, M4A, or WAV.
+
+Advanced Audio Selection:
+
+Download a video with a specific audio language track (e.g., download a video with its Spanish or Japanese audio).
+
+Subtitle Integration:
+
+Download and embed available subtitles into your video file.
+
+Self-Updating: Includes a built-in "Update Tools" button to fetch the latest version of yt-dlp, ensuring it keeps working even if YouTube makes changes.
+
+Smart Merging: Automatically merges video-only and audio-only streams (using the bundled FFmpeg) for the best possible quality.
+
+🚀 How to Use
+
+Search: Paste a full YouTube video/playlist URL or any search term into the search box and press Enter or click Search.
+
+Select:
+
+For a Single Video: A list of all available MP4 streams will appear. Select the quality you want.
+
+For a Playlist: A list of all videos in the playlist will appear. Select the videos you want (you can select multiple) and choose a global format (e.g., MP3, MP4).
+
+Advanced (Optional):
+
+Click the "Advanced..." button to select a specific audio language track or to embed subtitles for your download.
+
+Download:
+
+Choose your "Save to" directory.
+
+Click "Download Selected Video Stream" (for single videos) or "Download Selected from Playlist".
+
+🖼️ Screenshots
+
+<table align="center">
+<tr>
+<td align="center"><b>Single Video View</b>
+
+
+
+<i>Select specific streams and advanced options.</i></td>
+<td align="center"><b>Playlist View</b>
+
+
+
+<i>Select multiple videos and a global format.</i></td>
+</tr>
+<tr>
+<td><img alt="Single Video Screenshot" src="https://github.com/user-attachments/assets/7f39ed42-3c02-4b7c-b21b-2038d144c67e" /></td>
+<td><img alt="Playlist Screenshot" src="https://github.com/user-attachments/assets/d7e63080-16ea-4581-83cc-e8f9116d0129" /></td>
+</tr>
+</table>
+
+⚠️ A Note on FFmpeg
+
+This application comes with ffmpeg.exe and ffprobe.exe bundled inside the final .exe file. It's required for merging video/audio and converting to MP3.
+
+💡 If you see an FFmpeg error saying it failed to download—don’t worry! > Just check the folder you selected; your downloaded files will most likely be there. This can happen if the merging process completes but reports an error incorrectly.
 
 ## 🛠️ Optional: Add FFmpeg to System PATH (Recommended)
 
@@ -32,8 +94,6 @@ C:\Program Files (x86)\ffmpeg-<date>-git-<version>-essentials_build\bin
 
 5. Copy that path.
 6. Add it to your **System PATH** environment variable.
-
----
 
 ### 🤔 How to Edit the System PATH?
 
